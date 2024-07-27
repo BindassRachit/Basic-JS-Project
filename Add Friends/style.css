@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(132, 132, 223);
+    height: 100vh;
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10%;
+    
+}
+.card img{
+    height: 200px;
+    width: 250px;
+    padding: 20px 25px;
+    border-radius: 15%;
+}
+
+.card h3 {
+    text-align: center;
+    font-size: 3cap;
+}
+.card h5{
+    text-align: center;
+    font-size: 2cap;
+    color: red;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button{
+    margin: 10% 5%;
+    font-size: 1.5cap;
+}
+#remove{
+    padding: 2%;
+}
+#add{
+    background-color: rgb(41, 74, 206);
+    color: white;
+    padding: 2%;
+}
